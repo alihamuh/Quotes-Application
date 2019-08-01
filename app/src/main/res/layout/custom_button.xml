@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+<LinearLayout
+    android:orientation="vertical"
+    android:clickable="true"
+    android:focusable="true"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:background="@drawable/button_normal_night"
+    android:layout_margin="10dp"
+    >
+<LinearLayout
+    android:id="@+id/snapshot"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/SecondFragText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/first_fragment"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="bold"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="50dp"
+        android:textColor="#F6F6F6"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/SecondFragAuthor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="C. JoyBell C."
+        android:fontFamily="serif-monospace"
+        android:textStyle="bold"
+        android:textColor="#F8C38F"
+        android:textSize="20sp"
+        android:layout_margin="10dp"/>
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="3dp">
+        <Button
+            android:padding="5dp"
+            android:id="@+id/like"
+            style="@style/ButtonStyle"
+            android:background="@drawable/small_button_back"
+            android:text="Like"
+            android:drawableLeft="@drawable/ic_thumb_up_black_24dp"
+            android:textSize="@dimen/icon_text_size"/>
+        <Button
+            android:id="@+id/save"
+           style="@style/ButtonStyle"
+            android:text="save"
+            android:drawableLeft="@drawable/ic_save_black_24dp"
+            android:textSize="@dimen/icon_text_size"/>
+        <Button
+            android:id="@+id/copy"
+            style="@style/ButtonStyle"
+            android:text="COPY"
+            android:drawableLeft="@drawable/ic_content_copy_black_24dp"
+            android:textSize="@dimen/icon_text_size"/>
+        <Button
+            android:id="@+id/share"
+            style="@style/ButtonStyle"
+            android:background="@drawable/small_button_front"
+            android:text="Share"
+            android:drawableLeft="@drawable/ic_share_black_24dp"
+            android:textSize="@dimen/icon_text_size"/>
+
+    </LinearLayout>
+</LinearLayout>
+</LinearLayout>

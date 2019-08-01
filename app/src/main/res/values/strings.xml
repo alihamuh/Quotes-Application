@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Inspirational Quotes</string>
+    <string name="title_activity_test">testActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="first_fragment">“You can talk with someone for years, everyday, and still, it won\'t mean as much as what you can have when you sit in front of someone, not saying a word, yet you feel that person with your heart, you feel like you have known the person for forever.... connections are made with the heart, not the tongue.” </string>
+</resources>
